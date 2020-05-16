@@ -4,3 +4,22 @@ https://www.unimake.com.br/uninfe/
 
 https://blog.wedologos.com.br/empreendedorismo/expandir-negocio/nota-fiscal-eletronica/
 
+https://portal.fazenda.sp.gov.br/servicos/nfe/Paginas/URL-WEBSERVICES.aspx
+
+produção
+	https://www1.nfe.fazenda.gov.br/NFeDistribuicaoDFe/NFeDistribuicaoDFe.asmx
+
+
+homologação
+	https://hom.nfe.fazenda.gov.br/NFeDistribuicaoDFe/NFeDistribuicaoDFe.asmx
+
+
+
+
+
+
+
+
+
+
+

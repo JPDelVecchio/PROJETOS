@@ -1,0 +1,21 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Adicionar Movimento</h2>
+
+<form action="/Movimento/Adiciona" method="post">
+
+    <label for="data">Data:</label>
+    <input id="data" name="data" value="@Model.data" readonly />
+
+    <div>  
+
+    </div>
+
+
+    <input type="submit" value="Salvar" />
+</form>
+
