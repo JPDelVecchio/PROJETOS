@@ -1,0 +1,12 @@
+
+
+WEB SERVICE(S) - todos RM Totvs (mesmo local / ambiente)
+1 - Consulta de dados dos produtos
+2 - Consulta de dados dos Centros de Custos
+3 - Inclusão de Movimento 
+4 - Consulta de verificação de usuário no sistema origem
+
+Formula RM TOTVS
+1 - Formula de Consulta de Centro de Custo
+2 - Formula de Consulta de Produtos Filial / Coligada
+

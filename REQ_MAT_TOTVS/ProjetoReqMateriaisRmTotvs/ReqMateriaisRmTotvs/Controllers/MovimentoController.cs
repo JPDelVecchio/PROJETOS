@@ -18,5 +18,10 @@ namespace ReqMateriaisRmTotvs.Controllers
         {
             return View();
         }
+        //public IList<CentroCusto> CentroCustoLoad(String codigo)
+        //{
+        //    var ListaCentroCusto = new IList<CentroCusto>();
+        //    return ListaCentroCusto;
+        //}
     }
 }

@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ReqMateriaisRmTotvs.SvConsultaSQL {
+namespace ReqMateriaisRmTotvs.WSConsultar {
     using System.Data;
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://www.totvs.com.br/br/", ConfigurationName="SvConsultaSQL.wsConsultaSQLSoap")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://www.totvs.com.br/br/", ConfigurationName="WSConsultar.wsConsultaSQLSoap")]
     public interface wsConsultaSQLSoap {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.totvs.com.br/br/AutenticaAcessoAuth", ReplyAction="*")]
@@ -60,12 +60,12 @@ namespace ReqMateriaisRmTotvs.SvConsultaSQL {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface wsConsultaSQLSoapChannel : ReqMateriaisRmTotvs.SvConsultaSQL.wsConsultaSQLSoap, System.ServiceModel.IClientChannel {
+    public interface wsConsultaSQLSoapChannel : ReqMateriaisRmTotvs.WSConsultar.wsConsultaSQLSoap, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class wsConsultaSQLSoapClient : System.ServiceModel.ClientBase<ReqMateriaisRmTotvs.SvConsultaSQL.wsConsultaSQLSoap>, ReqMateriaisRmTotvs.SvConsultaSQL.wsConsultaSQLSoap {
+    public partial class wsConsultaSQLSoapClient : System.ServiceModel.ClientBase<ReqMateriaisRmTotvs.WSConsultar.wsConsultaSQLSoap>, ReqMateriaisRmTotvs.WSConsultar.wsConsultaSQLSoap {
         
         public wsConsultaSQLSoapClient() {
         }
