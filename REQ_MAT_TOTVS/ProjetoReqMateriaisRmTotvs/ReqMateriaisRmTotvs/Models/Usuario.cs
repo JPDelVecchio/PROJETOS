@@ -16,5 +16,12 @@ namespace ReqMateriaisRmTotvs.Models
         [Required(ErrorMessage ="Informe o e-mail ou informe e-mail corretamente")]
         [RegularExpression(@"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*", ErrorMessage = "Email inválido.")]
         public string email { get; set; }
+        
+        public Usuario()
+        {
+            this.usuario = "";
+            this.senha = null;
+            this.email = "teste@exemple.com.br";
+        }
     }
 }

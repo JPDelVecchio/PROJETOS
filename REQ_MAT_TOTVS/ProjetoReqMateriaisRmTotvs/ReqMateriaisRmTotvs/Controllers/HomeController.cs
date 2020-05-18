@@ -15,14 +15,14 @@ namespace ReqMateriaisRmTotvs.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Este aplicativo permite a inclusão de movimento de Requisição ao ERP RM TOTVS.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Para maiores informações entrar em contato";
 
             return View();
         }

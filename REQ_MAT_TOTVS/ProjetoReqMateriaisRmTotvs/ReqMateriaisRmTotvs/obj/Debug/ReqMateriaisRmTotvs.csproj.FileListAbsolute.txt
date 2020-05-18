@@ -79,7 +79,6 @@ C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\ASP NET\REQ_MAT_TOTVS\Projet
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\ASP NET\REQ_MAT_TOTVS\ProjetoReqMateriaisRmTotvs\ReqMateriaisRmTotvs\bin\pt-br\System.Web.WebPages.resources.dll
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\ASP NET\REQ_MAT_TOTVS\ProjetoReqMateriaisRmTotvs\ReqMateriaisRmTotvs\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\ASP NET\REQ_MAT_TOTVS\ProjetoReqMateriaisRmTotvs\ReqMateriaisRmTotvs\bin\pt-br\System.Web.WebPages.Razor.resources.dll
-C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\ASP NET\REQ_MAT_TOTVS\ProjetoReqMateriaisRmTotvs\ReqMateriaisRmTotvs\obj\Debug\ReqMateriaisRmTotvs.csprojAssemblyReference.cache
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\ASP NET\REQ_MAT_TOTVS\ProjetoReqMateriaisRmTotvs\ReqMateriaisRmTotvs\obj\Debug\ReqMateriaisRmTotvs.csproj.CoreCompileInputs.cache
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\ASP NET\REQ_MAT_TOTVS\ProjetoReqMateriaisRmTotvs\ReqMateriaisRmTotvs\obj\Debug\ReqMateriaisRmTotvs.csproj.CopyComplete
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\ASP NET\REQ_MAT_TOTVS\ProjetoReqMateriaisRmTotvs\ReqMateriaisRmTotvs\obj\Debug\ReqMateriaisRmTotvs.dll

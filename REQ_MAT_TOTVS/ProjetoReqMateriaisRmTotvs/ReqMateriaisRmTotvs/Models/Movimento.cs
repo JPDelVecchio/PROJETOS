@@ -9,14 +9,19 @@ namespace ReqMateriaisRmTotvs.Models
 {
     public class Movimento
     {
-        public Usuario usuario { get; set; } 
-        public String data { get; set; }
-        public Item itens { get; set; }
+        public String Usuario { get; set; } 
+        public int Coligada { get; set; }
+        public int Filial { get; set; }
+        public String Data { get; set; }
+        public Item Dtens { get; set; }
         public String CentroCusto { get; set; }
+        public String HistoricoCurto { get; set; }
 
         public Movimento()
         {
-            data = DateTime.Now.ToString("d");
+            this.Data = DateTime.Now.ToString("d");
+            this.Usuario = "jlima"; // (String) new Usuario().usuario;
+
         }
     }
 }
