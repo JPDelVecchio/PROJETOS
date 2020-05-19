@@ -2,14 +2,16 @@
 using System;
 using System.CodeDom;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace ClienteWStestes
 {
-    class Consulta
+    public class Consulta 
     {
         String Produto { get; set; }
         public string ConsultarUsuario() { 
@@ -26,10 +28,22 @@ namespace ClienteWStestes
         {
             var ret = new wsConsultaSQLSoapClient();
             var retorno  = ret.RealizarConsultaSQLAuth("TESTEJOAO",1,"T","Mestre","totvs", "1");
- 
-                Console.WriteLine(retorno);
-           
-        }
+            Console.WriteLine(retorno);
+
+            using(StringReader leitor = new StringReader(retorno))
+            {
+               var leitorXML = new XmlTextReader(leitor);
+             
+                    while(leitorXML.Read())
+                    { 
+                        Console.WriteLine( leitorXML.Value); 
+                    }
+                    
+			
+            }
+            
+            }
+
 
         }
     }
