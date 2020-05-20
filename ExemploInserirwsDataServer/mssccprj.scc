@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[WSInsereValor.sln]
+SCC_Aux_Path = "\\engrm-vss\src$"
+SCC_Project_Name = "$/RM.Net/Source/Con-Conector/OLD_Projeto/ExemploInserirDataServer", TYMZCAAA
+
+[WSInsereValor.csproj]
+SCC_Aux_Path = "\\engrm-vss\src$"
+SCC_Project_Name = "$/RM.Net/Source/Con-Conector/OLD_Projeto/ExemploInserirDataServer", TYMZCAAA

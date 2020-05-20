@@ -1,0 +1,13 @@
+C:\RM.NET\Bin\WSInsereOcorrencia.exe.config
+C:\RM.NET\Bin\WSInsereOcorrencia.exe
+C:\RM.NET\Bin\WSInsereOcorrencia.pdb
+C:\RM.NET\Source\Con-Conector\OLD_Projeto\ExemploInserirDataServer\obj\Debug\ResolveAssemblyReference.cache
+C:\RM.NET\Source\Con-Conector\OLD_Projeto\ExemploInserirDataServer\obj\Debug\WSInsereOcorrencia.formAtendimento.resources
+C:\RM.NET\Source\Con-Conector\OLD_Projeto\ExemploInserirDataServer\obj\Debug\WSInsereOcorrencia.formDado.resources
+C:\RM.NET\Source\Con-Conector\OLD_Projeto\ExemploInserirDataServer\obj\Debug\WSInsereOcorrencia.Properties.Resources.resources
+C:\RM.NET\Source\Con-Conector\OLD_Projeto\ExemploInserirDataServer\obj\Debug\GenerateResource.read.1.tlog
+C:\RM.NET\Source\Con-Conector\OLD_Projeto\ExemploInserirDataServer\obj\Debug\GenerateResource.write.1.tlog
+C:\RM.NET\Source\Con-Conector\OLD_Projeto\ExemploInserirDataServer\obj\Debug\WSInsereOcorrencia.exe
+C:\RM.NET\Source\Con-Conector\OLD_Projeto\ExemploInserirDataServer\obj\Debug\WSInsereOcorrencia.pdb
+C:\RM.NET\Source\Con-Conector\OLD_Projeto\ExemploInserirwsDataServer\obj\Debug\WSInsereOcorrencia.exe
+C:\RM.NET\Source\Con-Conector\OLD_Projeto\ExemploInserirwsDataServer\obj\Debug\WSInsereOcorrencia.pdb
