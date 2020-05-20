@@ -16,8 +16,7 @@ namespace ClienteWStestes
         String Produto { get; set; }
         public string ConsultarUsuario()
         {
-            var ret = new WSConsulta.wsConsultaSQLSoapClient();
-
+            var ret = new WSConsulta.wsConsultaSQLSoapClient(); 
             if (ret.AutenticaAcessoAuth("Mestre", "totvs") == "1")
             {
                 return "Existe";
@@ -57,8 +56,8 @@ namespace ClienteWStestes
             //Console.WriteLine(raiz["title"].OuterXml);
 
 
-            Console.ReadKey();
-        }
+            Console.ReadKey(); 
+        } 
     } 
     }
 

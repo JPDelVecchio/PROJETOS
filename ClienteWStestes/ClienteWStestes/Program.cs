@@ -17,9 +17,10 @@ namespace ClienteWStestes
             //Console.WriteLine(retorno);
 
 
-            string pesquisa = Console.ReadLine();  
+            string pesquisa = Console.ReadLine();
             cons.Produtos(pesquisa);
 
-        }
+        } 
+
     }
 }
