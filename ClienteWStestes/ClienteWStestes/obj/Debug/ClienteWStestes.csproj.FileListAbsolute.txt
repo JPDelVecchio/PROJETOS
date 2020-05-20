@@ -8,7 +8,7 @@ C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\ASP NET\ClienteWStestes\Clie
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\ClienteWStestes\ClienteWStestes\bin\Debug\ClienteWStestes.exe.config
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\ClienteWStestes\ClienteWStestes\bin\Debug\ClienteWStestes.exe
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\ClienteWStestes\ClienteWStestes\bin\Debug\ClienteWStestes.pdb
-C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\ClienteWStestes\ClienteWStestes\obj\Debug\ClienteWStestes.csprojAssemblyReference.cache
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\ClienteWStestes\ClienteWStestes\obj\Debug\ClienteWStestes.csproj.CoreCompileInputs.cache
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\ClienteWStestes\ClienteWStestes\obj\Debug\ClienteWStestes.exe
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\ClienteWStestes\ClienteWStestes\obj\Debug\ClienteWStestes.pdb
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\ClienteWStestes\ClienteWStestes\obj\Debug\ClienteWStestes.csprojAssemblyReference.cache

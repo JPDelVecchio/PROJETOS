@@ -11,14 +11,15 @@ namespace ClienteWStestes
         static void Main(string[] args)
         {
             var cons = new Consulta();
-            
-            String retorno = cons.ConsultarUsuario();
 
-            Console.WriteLine(retorno);
+            //String retorno = cons.ConsultarUsuario();
 
-            Console.WriteLine("outra consulta de produtos \\n");
+            //Console.WriteLine(retorno);
 
-            cons.Produtos();
+
+            string pesquisa = Console.ReadLine();  
+            cons.Produtos(pesquisa);
+
         }
     }
 }
