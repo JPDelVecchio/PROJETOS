@@ -10,24 +10,68 @@ namespace Calculadora_WindowsForms
 {
     class Calculador
     {
-        public static double Digito { get; set; } 
-        public static double UltimoDigito { get; set; }
+        public String Visor { get; set; }
+        private static Double Valor1 { get; set; }
+        public Double Valor2 { get; set; }
+        public String Operacao { get; set; }
+        public String Digito { get; set; }
 
-        public static void InsereDigito(double btn)
+
+        public double Somar(double n1, double n2)
         {
-            Digito += btn;
-            UltimoDigito = btn;
+            return n1 + n2;
         }
 
-        internal static double RetornaDigitos()
+        public double Subtrair(double n1, double n2)
         {
-            var numero = Digito;
-            Digito = 0;
-            return numero; 
+            return n1 - n2;
         }
-        public static void ExcluirUltimoDigito()
+        public double Dividir(double n1, double n2)
+        {
+            return n1 / n2;
+        }
+        public double Multiplicar(double n1, double n2)
+        {
+            return n1 * n2;
+        }
+        public void DeletarUltimoNumero()
         {
 
         }
+        public static string ApagarTudo()
+        {
+            Form1.Pilha.Clear();
+            return "";
+
+        }
+        public static string AtualizarVisor()
+        {
+            String visor = "";
+            var fila = new Stack<String>();
+            foreach (var item in Form1.Pilha)
+            {
+                fila.Push(item); 
+            }
+            foreach (var item in fila)
+            {
+                visor += item; ;
+            }
+
+            return visor;
+        }
+        public static void Verificaigito(String btn)
+        {
+            if (btn.ToString() != "+")
+            {
+                Form1.Pilha.Push(btn.ToString());
+            }
+            else
+            {
+                Valor1 = Convert.ToDouble(AtualizarVisor());
+                Form1.Pilha.Push(btn.ToString());
+            }
+
+            //MessageBox.Show(Valor1.ToString());
+        } 
     }
 }
