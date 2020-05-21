@@ -12,6 +12,9 @@ namespace Calculadora_WindowsForms
 {
     public partial class Form1 : Form
     {
+        /*
+         * Construir todos os tratamentos de exceções das filas e ppilhas quando vazias
+         */
 
         public static Stack<String> Pilha = new Stack<String>();
         public Form1()
@@ -21,7 +24,7 @@ namespace Calculadora_WindowsForms
 
         private void btn4_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btn4.Text);
+            Calculador.AdicionaDigito(btn4.Text);
             txtVisor.Text =  Calculador.AtualizarVisor(); 
         }
 
@@ -33,7 +36,7 @@ namespace Calculadora_WindowsForms
 
         private void btnSoma_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btnSoma.Text);
+            Calculador.AdicionaDigito(btnSoma.Text);
             txtVisor.Text = Calculador.AtualizarVisor();
         }
 
@@ -54,85 +57,87 @@ namespace Calculadora_WindowsForms
 
         private void btn7_Click(object sender, EventArgs e)
         { 
-            Calculador.Verificaigito(btn7.Text);
+            Calculador.AdicionaDigito(btn7.Text);
             txtVisor.Text = Calculador.AtualizarVisor();
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btn8.Text);
+            Calculador.AdicionaDigito(btn8.Text);
             txtVisor.Text = Calculador.AtualizarVisor();
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btn9.Text);
+            Calculador.AdicionaDigito(btn9.Text);
             txtVisor.Text = Calculador.AtualizarVisor();
         }
 
         private void btn1_Click(object sender, EventArgs e)
         { 
-            Calculador.Verificaigito(btn1.Text);
+            Calculador.AdicionaDigito(btn1.Text);
             txtVisor.Text = Calculador.AtualizarVisor();
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btn2.Text);
+            Calculador.AdicionaDigito(btn2.Text);
             txtVisor.Text = Calculador.AtualizarVisor(); 
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btn3.Text);
+            Calculador.AdicionaDigito(btn3.Text);
             txtVisor.Text = Calculador.AtualizarVisor();
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btn5.Text);
+            Calculador.AdicionaDigito(btn5.Text);
             txtVisor.Text = Calculador.AtualizarVisor();
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btn6.Text);
+            Calculador.AdicionaDigito(btn6.Text);
             txtVisor.Text = Calculador.AtualizarVisor();
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btn0.Text);
+            Calculador.AdicionaDigito(btn0.Text);
             txtVisor.Text = Calculador.AtualizarVisor();
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btnPonto.Text);
+            Calculador.AdicionaDigito(btnPonto.Text);
             txtVisor.Text = Calculador.AtualizarVisor();
         }
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btnIgual.Text);
-            txtVisor.Text = Calculador.AtualizarVisor();
+            var resultado = Calculador.Calcular();
+            Calculador.ApagarTudo();
+            Calculador.AdicionaDigito(resultado);
+            txtVisor.Text = resultado;
         }
 
         private void btnSubtrai_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btnSubtrai.Text);
+            Calculador.AdicionaDigito(btnSubtrai.Text);
             txtVisor.Text = Calculador.AtualizarVisor();
         }
 
         private void btnMultiplica_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btnMultiplica.Text);
+            Calculador.AdicionaDigito(btnMultiplica.Text);
             txtVisor.Text = Calculador.AtualizarVisor();
         }
 
         private void btnDivisao_Click(object sender, EventArgs e)
         {
-            Calculador.Verificaigito(btnDivisao.Text);
+            Calculador.AdicionaDigito(btnDivisao.Text);
             txtVisor.Text = Calculador.AtualizarVisor();
         }
     }

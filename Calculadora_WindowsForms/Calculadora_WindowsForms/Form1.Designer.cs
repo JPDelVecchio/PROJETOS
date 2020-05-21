@@ -234,6 +234,8 @@ namespace Calculadora_WindowsForms
             // txtVisor
             // 
             this.txtVisor.BackColor = System.Drawing.SystemColors.Control;
+            this.txtVisor.Enabled = false;
+            this.txtVisor.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVisor.Location = new System.Drawing.Point(13, 12);
             this.txtVisor.Multiline = true;
             this.txtVisor.Name = "txtVisor";
