@@ -1,0 +1,7 @@
+C:\Users\DELVECCHIO\source\repos\CRUD_Basico\CRUD_Basico\bin\Debug\CRUD_Basico.exe.config
+C:\Users\DELVECCHIO\source\repos\CRUD_Basico\CRUD_Basico\bin\Debug\CRUD_Basico.exe
+C:\Users\DELVECCHIO\source\repos\CRUD_Basico\CRUD_Basico\bin\Debug\CRUD_Basico.pdb
+C:\Users\DELVECCHIO\source\repos\CRUD_Basico\CRUD_Basico\obj\Debug\CRUD_Basico.csprojAssemblyReference.cache
+C:\Users\DELVECCHIO\source\repos\CRUD_Basico\CRUD_Basico\obj\Debug\CRUD_Basico.csproj.CoreCompileInputs.cache
+C:\Users\DELVECCHIO\source\repos\CRUD_Basico\CRUD_Basico\obj\Debug\CRUD_Basico.exe
+C:\Users\DELVECCHIO\source\repos\CRUD_Basico\CRUD_Basico\obj\Debug\CRUD_Basico.pdb
