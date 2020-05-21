@@ -41,7 +41,7 @@ namespace Calculadora_WindowsForms
         public static String Calcular()
         {
             string visor = AtualizarVisor();
-            visor = visor.Replace("X", "*");
+            visor = (visor.Replace("X", "*").Replace(",","."));
             var resultado = ProcessarCommando(visor);
             return resultado.ToString();
         } 

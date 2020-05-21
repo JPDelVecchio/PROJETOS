@@ -207,7 +207,7 @@ namespace Calculadora_WindowsForms
             this.btnPonto.Name = "btnPonto";
             this.btnPonto.Size = new System.Drawing.Size(55, 49);
             this.btnPonto.TabIndex = 21;
-            this.btnPonto.Text = ".";
+            this.btnPonto.Text = ",";
             this.btnPonto.UseVisualStyleBackColor = true;
             this.btnPonto.Click += new System.EventHandler(this.button22_Click);
             // 
