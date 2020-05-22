@@ -47,7 +47,7 @@ namespace Calculadora_WindowsForms
 
         private void txtVisor_TextChanged(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Alterado o visor!!!");
         }
 
         private void button7_Click(object sender, EventArgs e)
