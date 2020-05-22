@@ -30,7 +30,11 @@ namespace Calculadora_WindowsForms
 
         private void btnDeletaUm_Click(object sender, EventArgs e)
         {
-            Form1.Pilha.Pop();
+
+            if (Form1.Pilha.Count() > 0)
+            {
+                Form1.Pilha.Pop();
+            }
             txtVisor.Text = Calculador.AtualizarVisor();
         }
 
@@ -47,7 +51,7 @@ namespace Calculadora_WindowsForms
 
         private void txtVisor_TextChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("Alterado o visor!!!");
+            //MessageBox.Show("Alterado o visor!!!");
         }
 
         private void button7_Click(object sender, EventArgs e)
