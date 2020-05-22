@@ -8,7 +8,9 @@ namespace CRUD_basico.Modelos
 {
     class NotaFiscal
     {
-        public Fornecedor Fornecedor { get; set; }
+        public int Id { get; set; }
+        public int NumeroNota { get; set; }
+        public ClienteFornecedor Fornecedor { get; set; }
         public IList<Item> itens { get; set; }
 
         public NotaFiscal()
