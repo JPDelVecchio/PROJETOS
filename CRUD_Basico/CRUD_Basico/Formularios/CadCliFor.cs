@@ -1,4 +1,5 @@
 ﻿using CRUD_basico.Modelos;
+using CRUD_Basico.Dados;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,7 +27,7 @@ namespace CRUD_Basico.Formularios
             cliFor.Cnpj = txtCNPJ.Text;
             cliFor.Endereco = txtEndereco.Text;
 
-            cliFor.IncluirCliFor(); 
+            cliFor.IncluirCliFor(cliFor);
         }
     }
 }

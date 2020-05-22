@@ -140,6 +140,7 @@
     <Compile Include="Classes\Item.cs" />
     <Compile Include="Classes\NotaFiscal.cs" />
     <Compile Include="Classes\Produto.cs" />
+    <Compile Include="Dados\MovimentacaoContext.cs" />
     <Compile Include="Formularios\CadCliFor.cs">
       <SubType>Form</SubType>
     </Compile>
