@@ -176,6 +176,12 @@
     <EmbeddedResource Include="Formularios\CadCliFor.resx">
       <DependentUpon>CadCliFor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CadProduto.resx">
+      <DependentUpon>CadProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\EntradaNF.resx">
+      <DependentUpon>EntradaNF.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>

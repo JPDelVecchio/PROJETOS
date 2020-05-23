@@ -79,3 +79,5 @@ C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\CRUD_Basico\CRUD_Bas
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\CRUD_Basico\CRUD_Basico\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\CRUD_Basico\CRUD_Basico\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\CRUD_Basico\CRUD_Basico\obj\Debug\CRUD_Basico.csproj.CopyComplete
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\CRUD_basico\CRUD_Basico\obj\Debug\CRUD_Basico.Formularios.CadProduto.resources
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\CRUD_basico\CRUD_Basico\obj\Debug\CRUD_Basico.Formularios.EntradaNF.resources

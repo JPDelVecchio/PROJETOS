@@ -12,21 +12,21 @@ namespace CRUD_Basico
     {
         static void Main(string[] args)
         {
-            Form principal = new CadCliFor(); //Principal();
+            Form principal = new Principal(); //EntradaNF(); //
 
             principal.ShowDialog();
 
             principal.Close();
 
 
-            using (var contexto = new MovimentacaoContext())
-            {
-                foreach (var clifor in contexto.ClientesFornecedores)
-                {
-                    System.Console.WriteLine(clifor.Nome);
-                }
-                Console.ReadLine();
-            }
+            //using (var contexto = new MovimentacaoContext())
+            //{
+            //    foreach (var clifor in contexto.Produtos)
+            //    {
+            //        System.Console.WriteLine(clifor.Nome);
+            //    }
+            //    Console.ReadLine();
+            //}
         }
          
     }

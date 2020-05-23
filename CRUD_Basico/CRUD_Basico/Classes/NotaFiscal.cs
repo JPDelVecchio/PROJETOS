@@ -11,7 +11,7 @@ namespace CRUD_basico.Modelos
         public int Id { get; set; }
         public int NumeroNota { get; set; }
         public ClienteFornecedor Fornecedor { get; set; }
-        public IList<Item> itens { get; set; }
+        public List<Item> itens { get; set; }
 
         public NotaFiscal()
         {

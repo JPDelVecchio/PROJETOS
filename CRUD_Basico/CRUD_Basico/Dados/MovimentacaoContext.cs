@@ -11,6 +11,7 @@ namespace CRUD_Basico.Dados
     public class MovimentacaoContext : DbContext
     {
         public DbSet<ClienteFornecedor> ClientesFornecedores { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -43,6 +44,19 @@ namespace CRUD_Basico.Dados
                 .Property(a => a.Telefone)
                 .HasColumnType("Varchar(15)");
 
+            modelBuilder.Entity<Produto>()
+                .ToTable("Produto");
+            modelBuilder.Entity<Produto>()
+                .Property(a => a.Id)
+                .HasColumnName("IDPRODUTO");
+            modelBuilder.Entity<Produto>()
+                .Property(a => a.Unidade)
+                .HasColumnType("Varchar(5)")
+                .IsRequired();
+            modelBuilder.Entity<Produto>()
+                .Property(a => a.Nome)
+                .HasColumnType("Varchar(200)")
+                .IsRequired(); 
 
             /* shadow properties */
             //modelBuilder.Entity<ClienteFornecedor>()

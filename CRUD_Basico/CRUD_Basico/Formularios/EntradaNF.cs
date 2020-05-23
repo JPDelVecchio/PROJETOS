@@ -15,6 +15,12 @@ namespace CRUD_Basico.Formularios
         public EntradaNF()
         {
             InitializeComponent();
+            lblData.Text = "Data Movimento: " +  DateTime.Now.ToShortDateString();
+        }
+
+        private void EntradaNF_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

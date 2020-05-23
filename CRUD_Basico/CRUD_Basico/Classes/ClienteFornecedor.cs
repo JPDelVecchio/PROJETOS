@@ -31,7 +31,7 @@ namespace CRUD_basico.Modelos
 
             using (var contexto = new MovimentacaoContext())
             {
-                contexto.Add(cliFor);
+                contexto.ClientesFornecedores.Add(cliFor);
                 contexto.SaveChanges();
             }
             CadCliFor.ActiveForm.Close();
