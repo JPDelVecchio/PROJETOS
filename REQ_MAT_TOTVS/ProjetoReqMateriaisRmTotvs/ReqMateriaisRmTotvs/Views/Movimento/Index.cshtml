@@ -1,0 +1,37 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>Requisição</h3>
+
+<form action="/Movimento/Adiciona" method="post">
+
+   
+
+    <div>
+        <label for="usuario">Usuario:</label>
+        <input id="usuario" type="text" size="20" value="@Model.Usuario" /> <br />
+
+        <label for="date">Data:</label>
+        <input id="data" type="text" name="data" value="@Model.Data" readonly /><br />
+
+        <label for="Coligada">Coligada:</label>
+        <input id="coligada" type="number" name="coligada" /><br />
+
+        <label for="Filial">Filial:</label>
+        <input id="filial" type="number" name="filial" /><br />
+
+        <label for="centroCusto">Centro de Custo:</label>
+        <input id="centroCusto" type="text" name="centroCusto" /><br />
+
+        <label for="historico">Historico Curto:</label><br />
+        <textarea id="historico" rows="6" cols="50"> </textarea>
+
+        <input type="submit" value="Enviar" disabled />
+    </div>
+
+
+</form>
+

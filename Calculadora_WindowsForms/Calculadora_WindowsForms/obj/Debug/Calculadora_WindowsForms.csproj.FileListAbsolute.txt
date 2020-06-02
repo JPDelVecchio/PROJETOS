@@ -1,0 +1,20 @@
+C:\Users\DELVECCHIO\source\repos\Calculadora_WindowsForms\Calculadora_WindowsForms\bin\Debug\Calculadora_WindowsForms.exe.config
+C:\Users\DELVECCHIO\source\repos\Calculadora_WindowsForms\Calculadora_WindowsForms\bin\Debug\Calculadora_WindowsForms.exe
+C:\Users\DELVECCHIO\source\repos\Calculadora_WindowsForms\Calculadora_WindowsForms\bin\Debug\Calculadora_WindowsForms.pdb
+C:\Users\DELVECCHIO\source\repos\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.csprojAssemblyReference.cache
+C:\Users\DELVECCHIO\source\repos\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.Form1.resources
+C:\Users\DELVECCHIO\source\repos\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.Properties.Resources.resources
+C:\Users\DELVECCHIO\source\repos\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.csproj.GenerateResource.cache
+C:\Users\DELVECCHIO\source\repos\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\DELVECCHIO\source\repos\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.exe
+C:\Users\DELVECCHIO\source\repos\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.pdb
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Calculadora_WindowsForms\Calculadora_WindowsForms\bin\Debug\Calculadora_WindowsForms.exe.config
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Calculadora_WindowsForms\Calculadora_WindowsForms\bin\Debug\Calculadora_WindowsForms.exe
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Calculadora_WindowsForms\Calculadora_WindowsForms\bin\Debug\Calculadora_WindowsForms.pdb
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.csprojAssemblyReference.cache
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.Form1.resources
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.Properties.Resources.resources
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.csproj.GenerateResource.cache
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.exe
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Calculadora_WindowsForms\Calculadora_WindowsForms\obj\Debug\Calculadora_WindowsForms.pdb

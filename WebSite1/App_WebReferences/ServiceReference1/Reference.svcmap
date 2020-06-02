@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6547eabc-e05b-4d5b-81d9-0e8eb6378da6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8051/wsReport/MEX?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="mex.xsd" MetadataType="Schema" ID="c37d7b0a-691e-4fad-88d3-1f271db1e4e2" SourceId="1" SourceUrl="http://bhd050100297.bh01.local:8051/wsReport/mex?xsd=xsd4" />
+    <MetadataFile FileName="wsReport.wsdl" MetadataType="Wsdl" ID="d47b24ef-b35e-4b9c-be55-24b40aa40951" SourceId="1" SourceUrl="http://localhost:8051/wsReport/MEX?wsdl" />
+    <MetadataFile FileName="mex1.xsd" MetadataType="Schema" ID="d8efee3d-f4fd-4d50-b307-8398621a1a4b" SourceId="1" SourceUrl="http://bhd050100297.bh01.local:8051/wsReport/mex?xsd=xsd2" />
+    <MetadataFile FileName="mex2.xsd" MetadataType="Schema" ID="9858000d-7c6c-44f2-9027-2449c9dcde12" SourceId="1" SourceUrl="http://bhd050100297.bh01.local:8051/wsReport/mex?xsd=xsd3" />
+    <MetadataFile FileName="mex3.xsd" MetadataType="Schema" ID="7478bc79-3dbe-4838-9c64-d556dce78ef5" SourceId="1" SourceUrl="http://bhd050100297.bh01.local:8051/wsReport/mex?xsd=xsd0" />
+    <MetadataFile FileName="mex4.xsd" MetadataType="Schema" ID="66b3687a-f448-490c-927f-f1dbadb8441c" SourceId="1" SourceUrl="http://bhd050100297.bh01.local:8051/wsReport/mex?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
