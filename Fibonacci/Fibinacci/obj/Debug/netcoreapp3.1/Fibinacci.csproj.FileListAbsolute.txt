@@ -1,0 +1,13 @@
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Fibonacci\Fibinacci\bin\Debug\netcoreapp3.1\Fibinacci.exe
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Fibonacci\Fibinacci\bin\Debug\netcoreapp3.1\Fibinacci.deps.json
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Fibonacci\Fibinacci\bin\Debug\netcoreapp3.1\Fibinacci.runtimeconfig.json
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Fibonacci\Fibinacci\bin\Debug\netcoreapp3.1\Fibinacci.runtimeconfig.dev.json
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Fibonacci\Fibinacci\bin\Debug\netcoreapp3.1\Fibinacci.dll
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Fibonacci\Fibinacci\bin\Debug\netcoreapp3.1\Fibinacci.pdb
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Fibonacci\Fibinacci\obj\Debug\netcoreapp3.1\Fibinacci.csprojAssemblyReference.cache
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Fibonacci\Fibinacci\obj\Debug\netcoreapp3.1\Fibinacci.csproj.CoreCompileInputs.cache
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Fibonacci\Fibinacci\obj\Debug\netcoreapp3.1\Fibinacci.AssemblyInfoInputs.cache
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Fibonacci\Fibinacci\obj\Debug\netcoreapp3.1\Fibinacci.AssemblyInfo.cs
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Fibonacci\Fibinacci\obj\Debug\netcoreapp3.1\Fibinacci.dll
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Fibonacci\Fibinacci\obj\Debug\netcoreapp3.1\Fibinacci.pdb
+C:\Users\DELVECCHIO\Documents\TREINAMENTOS\PROJETOS\C SHARP\Fibonacci\Fibinacci\obj\Debug\netcoreapp3.1\Fibinacci.genruntimeconfig.cache
