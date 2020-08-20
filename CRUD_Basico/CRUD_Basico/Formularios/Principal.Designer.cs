@@ -48,7 +48,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(869, 339);
+            this.panel1.Size = new System.Drawing.Size(544, 295);
             this.panel1.TabIndex = 0;
             // 
             // menuStrip1
@@ -59,7 +59,7 @@
             this.toolsStripMenu});
             this.menuStrip1.Location = new System.Drawing.Point(28, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(239, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(119, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -80,7 +80,7 @@
             this.clienteFornecedorToolStripMenuItem,
             this.produtoToolStripMenuItem});
             this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
-            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.cadastrarToolStripMenuItem.Text = "Cadastrar";
             // 
             // clienteFornecedorToolStripMenuItem
@@ -102,25 +102,25 @@
             this.entradaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.entradaToolStripMenuItem1});
             this.entradaToolStripMenuItem.Name = "entradaToolStripMenuItem";
-            this.entradaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.entradaToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.entradaToolStripMenuItem.Text = "Movimento";
             // 
             // entradaToolStripMenuItem1
             // 
             this.entradaToolStripMenuItem1.Name = "entradaToolStripMenuItem1";
-            this.entradaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.entradaToolStripMenuItem1.Size = new System.Drawing.Size(114, 22);
             this.entradaToolStripMenuItem1.Text = "Entrada";
             this.entradaToolStripMenuItem1.Click += new System.EventHandler(this.entradaToolStripMenuItem1_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(133, 6);
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
@@ -128,7 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(869, 339);
+            this.ClientSize = new System.Drawing.Size(544, 295);
             this.Controls.Add(this.panel1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Principal";

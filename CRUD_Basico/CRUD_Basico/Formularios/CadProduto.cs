@@ -24,11 +24,20 @@ namespace CRUD_Basico.Formularios
             Produto produto = new Produto();
             produto.Nome = txtNome.Text.ToString();
             produto.Descricao = txtDescricao.Text.ToString();
-            produto.Unidade = txtUnidade.Text.ToString();
+            produto.Unidade = cbUnidadeProd.Text.ToString();
 
             var res = produto.IncluirProduto(produto);
 
             MessageBox.Show(res.ToString());
+        }
+
+        private void CadProduto_Load(object sender, EventArgs e)
+        {
+            cbUnidadeProd.Items.Add("UN");
+            cbUnidadeProd.Items.Add("LT");
+            cbUnidadeProd.Items.Add("PCT");
+            cbUnidadeProd.Items.Add("BD");
+            cbUnidadeProd.Items.Add("SC");
         }
     }
 }

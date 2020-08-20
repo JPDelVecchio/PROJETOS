@@ -28,44 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
-            this.btnPesquisarItem = new System.Windows.Forms.Button();
             this.lblData = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.chProduto = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.chUnidade = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.chQuantidade = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.chValorUnit = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtTotal = new System.Windows.Forms.TextBox();
             this.btnSalvar = new System.Windows.Forms.Button();
-            this.btnPesquisarFornecedor = new System.Windows.Forms.Button();
-            this.btnPesquisarCliente = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtQtd = new System.Windows.Forms.TextBox();
+            this.txtValor = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
+            this.dgvItemNF = new System.Windows.Forms.DataGridView();
+            this.cbItem = new System.Windows.Forms.ComboBox();
+            this.cbFornecedor = new System.Windows.Forms.ComboBox();
+            this.cbCliente = new System.Windows.Forms.ComboBox();
+            this.btnAddItem = new System.Windows.Forms.Button();
+            this.Item = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Qtd = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Preco = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvItemNF)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnPesquisarItem
-            // 
-            this.btnPesquisarItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPesquisarItem.Location = new System.Drawing.Point(704, 53);
-            this.btnPesquisarItem.Name = "btnPesquisarItem";
-            this.btnPesquisarItem.Size = new System.Drawing.Size(88, 23);
-            this.btnPesquisarItem.TabIndex = 0;
-            this.btnPesquisarItem.Text = "Pesquisar";
-            this.btnPesquisarItem.UseVisualStyleBackColor = true;
             // 
             // lblData
             // 
@@ -122,85 +110,27 @@
             this.textBox1.Location = new System.Drawing.Point(12, 204);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(409, 158);
+            this.textBox1.Size = new System.Drawing.Size(290, 150);
             this.textBox1.TabIndex = 6;
-            // 
-            // listView1
-            // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.chProduto,
-            this.chUnidade,
-            this.chQuantidade,
-            this.chValorUnit});
-            listViewGroup1.Header = "ListViewGroup";
-            listViewGroup1.Name = "listViewGroup1";
-            this.listView1.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup1});
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(436, 172);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(356, 190);
-            this.listView1.TabIndex = 8;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.List;
-            // 
-            // chProduto
-            // 
-            this.chProduto.Text = "Produto";
-            // 
-            // chUnidade
-            // 
-            this.chUnidade.Text = "Unidade";
-            // 
-            // chQuantidade
-            // 
-            this.chQuantidade.Text = "Quantidade";
-            // 
-            // chValorUnit
-            // 
-            this.chValorUnit.Text = "Valor Unitário";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(12, 56);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(314, 23);
-            this.textBox2.TabIndex = 9;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(12, 100);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(314, 23);
-            this.textBox3.TabIndex = 10;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(436, 82);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(356, 23);
-            this.textBox4.TabIndex = 11;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(433, 62);
+            this.label5.Location = new System.Drawing.Point(330, 61);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(92, 17);
             this.label5.TabIndex = 12;
             this.label5.Text = "Incluir Item:";
             // 
-            // textBox5
+            // txtTotal
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(680, 373);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(112, 23);
-            this.textBox5.TabIndex = 13;
+            this.txtTotal.Enabled = false;
+            this.txtTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTotal.Location = new System.Drawing.Point(680, 373);
+            this.txtTotal.Name = "txtTotal";
+            this.txtTotal.Size = new System.Drawing.Size(112, 23);
+            this.txtTotal.TabIndex = 13;
             // 
             // btnSalvar
             // 
@@ -212,31 +142,11 @@
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
             // 
-            // btnPesquisarFornecedor
-            // 
-            this.btnPesquisarFornecedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPesquisarFornecedor.Location = new System.Drawing.Point(333, 100);
-            this.btnPesquisarFornecedor.Name = "btnPesquisarFornecedor";
-            this.btnPesquisarFornecedor.Size = new System.Drawing.Size(88, 23);
-            this.btnPesquisarFornecedor.TabIndex = 15;
-            this.btnPesquisarFornecedor.Text = "Pesquisar";
-            this.btnPesquisarFornecedor.UseVisualStyleBackColor = true;
-            // 
-            // btnPesquisarCliente
-            // 
-            this.btnPesquisarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPesquisarCliente.Location = new System.Drawing.Point(333, 56);
-            this.btnPesquisarCliente.Name = "btnPesquisarCliente";
-            this.btnPesquisarCliente.Size = new System.Drawing.Size(88, 23);
-            this.btnPesquisarCliente.TabIndex = 16;
-            this.btnPesquisarCliente.Text = "Pesquisar";
-            this.btnPesquisarCliente.UseVisualStyleBackColor = true;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(433, 146);
+            this.label6.Location = new System.Drawing.Point(340, 130);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(97, 17);
             this.label6.TabIndex = 17;
@@ -246,27 +156,27 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(630, 143);
+            this.label7.Location = new System.Drawing.Point(519, 130);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 17);
             this.label7.TabIndex = 18;
             this.label7.Text = "Valor Unit:";
             // 
-            // textBox6
+            // txtQtd
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(536, 143);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(70, 23);
-            this.textBox6.TabIndex = 19;
+            this.txtQtd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQtd.Location = new System.Drawing.Point(443, 127);
+            this.txtQtd.Name = "txtQtd";
+            this.txtQtd.Size = new System.Drawing.Size(70, 23);
+            this.txtQtd.TabIndex = 19;
             // 
-            // textBox7
+            // txtValor
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(721, 140);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(71, 23);
-            this.textBox7.TabIndex = 20;
+            this.txtValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtValor.Location = new System.Drawing.Point(610, 127);
+            this.txtValor.Name = "txtValor";
+            this.txtValor.Size = new System.Drawing.Size(71, 23);
+            this.txtValor.TabIndex = 20;
             // 
             // label8
             // 
@@ -286,69 +196,140 @@
             this.textBox8.Size = new System.Drawing.Size(153, 23);
             this.textBox8.TabIndex = 22;
             // 
+            // dgvItemNF
+            // 
+            this.dgvItemNF.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvItemNF.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Item,
+            this.Qtd,
+            this.Preco,
+            this.Total});
+            this.dgvItemNF.Location = new System.Drawing.Point(333, 156);
+            this.dgvItemNF.Name = "dgvItemNF";
+            this.dgvItemNF.Size = new System.Drawing.Size(459, 198);
+            this.dgvItemNF.TabIndex = 23;
+            // 
+            // cbItem
+            // 
+            this.cbItem.FormattingEnabled = true;
+            this.cbItem.Location = new System.Drawing.Point(333, 81);
+            this.cbItem.Name = "cbItem";
+            this.cbItem.Size = new System.Drawing.Size(458, 21);
+            this.cbItem.TabIndex = 24;
+            // 
+            // cbFornecedor
+            // 
+            this.cbFornecedor.FormattingEnabled = true;
+            this.cbFornecedor.Location = new System.Drawing.Point(15, 106);
+            this.cbFornecedor.Name = "cbFornecedor";
+            this.cbFornecedor.Size = new System.Drawing.Size(266, 21);
+            this.cbFornecedor.TabIndex = 25;
+            // 
+            // cbCliente
+            // 
+            this.cbCliente.FormattingEnabled = true;
+            this.cbCliente.Location = new System.Drawing.Point(15, 57);
+            this.cbCliente.Name = "cbCliente";
+            this.cbCliente.Size = new System.Drawing.Size(266, 21);
+            this.cbCliente.TabIndex = 26;
+            // 
+            // btnAddItem
+            // 
+            this.btnAddItem.Location = new System.Drawing.Point(687, 127);
+            this.btnAddItem.Name = "btnAddItem";
+            this.btnAddItem.Size = new System.Drawing.Size(67, 23);
+            this.btnAddItem.TabIndex = 27;
+            this.btnAddItem.Text = "Add";
+            this.btnAddItem.UseVisualStyleBackColor = true;
+            this.btnAddItem.Click += new System.EventHandler(this.btnAddItem_Click);
+            // 
+            // Item
+            // 
+            this.Item.DataPropertyName = "ItemNF";
+            this.Item.HeaderText = "Item";
+            this.Item.Name = "Item";
+            this.Item.Width = 200;
+            // 
+            // Qtd
+            // 
+            this.Qtd.DataPropertyName = "Quantidade";
+            this.Qtd.HeaderText = "Qtd";
+            this.Qtd.Name = "Qtd";
+            this.Qtd.Width = 40;
+            // 
+            // Preco
+            // 
+            this.Preco.DataPropertyName = "Valor";
+            this.Preco.HeaderText = "Preço";
+            this.Preco.Name = "Preco";
+            this.Preco.Width = 40;
+            // 
+            // Total
+            // 
+            this.Total.DataPropertyName = "Total";
+            this.Total.HeaderText = "Total";
+            this.Total.Name = "Total";
+            this.Total.Width = 40;
+            // 
             // EntradaNF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(809, 420);
+            this.Controls.Add(this.btnAddItem);
+            this.Controls.Add(this.cbCliente);
+            this.Controls.Add(this.cbFornecedor);
+            this.Controls.Add(this.cbItem);
+            this.Controls.Add(this.dgvItemNF);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtValor);
+            this.Controls.Add(this.txtQtd);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.btnPesquisarCliente);
-            this.Controls.Add(this.btnPesquisarFornecedor);
             this.Controls.Add(this.btnSalvar);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.listView1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblData);
-            this.Controls.Add(this.btnPesquisarItem);
             this.Name = "EntradaNF";
             this.Text = "Movimento de Entrada";
             this.Load += new System.EventHandler(this.EntradaNF_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvItemNF)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnPesquisarItem;
         private System.Windows.Forms.Label lblData;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader chProduto;
-        private System.Windows.Forms.ColumnHeader chUnidade;
-        private System.Windows.Forms.ColumnHeader chQuantidade;
-        private System.Windows.Forms.ColumnHeader chValorUnit;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.Button btnSalvar;
-        private System.Windows.Forms.Button btnPesquisarFornecedor;
-        private System.Windows.Forms.Button btnPesquisarCliente;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtQtd;
+        private System.Windows.Forms.TextBox txtValor;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.DataGridView dgvItemNF;
+        private System.Windows.Forms.ComboBox cbItem;
+        private System.Windows.Forms.ComboBox cbFornecedor;
+        private System.Windows.Forms.ComboBox cbCliente;
+        private System.Windows.Forms.Button btnAddItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Item;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Qtd;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Preco;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Total;
     }
 }

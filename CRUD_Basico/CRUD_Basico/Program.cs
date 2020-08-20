@@ -12,21 +12,11 @@ namespace CRUD_Basico
     {
         static void Main(string[] args)
         {
-            Form principal = new Principal(); //EntradaNF(); //
+            Form principal = new Principal();  
 
             principal.ShowDialog();
 
             principal.Close();
-
-
-            //using (var contexto = new MovimentacaoContext())
-            //{
-            //    foreach (var clifor in contexto.Produtos)
-            //    {
-            //        System.Console.WriteLine(clifor.Nome);
-            //    }
-            //    Console.ReadLine();
-            //}
         }
          
     }

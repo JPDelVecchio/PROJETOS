@@ -18,7 +18,7 @@ namespace CRUD_basico.Modelos
             this.itens = new List<Item>();
         }
 
-        public void AdicionarItem(Produto produto,int quantidade, double valor)
+        public void AdicionarItem(string produto,int quantidade, double valor)
         {
             Item it = new Item() {ItemNf = produto, Quantidade = quantidade, Valor = valor };
             this.itens.Add(it);

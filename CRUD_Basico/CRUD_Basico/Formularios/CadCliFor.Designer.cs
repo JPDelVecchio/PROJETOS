@@ -42,9 +42,9 @@
             // btnSalvar
             // 
             this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Location = new System.Drawing.Point(112, 159);
+            this.btnSalvar.Location = new System.Drawing.Point(314, 81);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(75, 23);
+            this.btnSalvar.Size = new System.Drawing.Size(86, 58);
             this.btnSalvar.TabIndex = 0;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
@@ -94,7 +94,7 @@
             // 
             this.txtNome.Location = new System.Drawing.Point(100, 12);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(466, 20);
+            this.txtNome.Size = new System.Drawing.Size(300, 20);
             this.txtNome.TabIndex = 5;
             // 
             // txtCNPJ
@@ -122,7 +122,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(594, 208);
+            this.ClientSize = new System.Drawing.Size(444, 172);
             this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.txtFone);
             this.Controls.Add(this.txtCNPJ);

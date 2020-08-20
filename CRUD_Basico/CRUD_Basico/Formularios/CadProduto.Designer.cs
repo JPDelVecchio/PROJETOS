@@ -33,8 +33,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
-            this.txtUnidade = new System.Windows.Forms.TextBox();
             this.txtDescricao = new System.Windows.Forms.TextBox();
+            this.cbUnidadeProd = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSalvar
@@ -85,13 +87,6 @@
             this.txtNome.Size = new System.Drawing.Size(381, 20);
             this.txtNome.TabIndex = 4;
             // 
-            // txtUnidade
-            // 
-            this.txtUnidade.Location = new System.Drawing.Point(102, 107);
-            this.txtUnidade.Name = "txtUnidade";
-            this.txtUnidade.Size = new System.Drawing.Size(381, 20);
-            this.txtUnidade.TabIndex = 5;
-            // 
             // txtDescricao
             // 
             this.txtDescricao.Location = new System.Drawing.Point(102, 38);
@@ -100,13 +95,40 @@
             this.txtDescricao.Size = new System.Drawing.Size(381, 59);
             this.txtDescricao.TabIndex = 6;
             // 
+            // cbUnidadeProd
+            // 
+            this.cbUnidadeProd.FormattingEnabled = true;
+            this.cbUnidadeProd.Location = new System.Drawing.Point(102, 106);
+            this.cbUnidadeProd.Name = "cbUnidadeProd";
+            this.cbUnidadeProd.Size = new System.Drawing.Size(114, 21);
+            this.cbUnidadeProd.TabIndex = 7;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(336, 107);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(65, 20);
+            this.textBox1.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(238, 110);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(92, 17);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Valor Base:";
+            // 
             // CadProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(498, 203);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cbUnidadeProd);
             this.Controls.Add(this.txtDescricao);
-            this.Controls.Add(this.txtUnidade);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -114,6 +136,7 @@
             this.Controls.Add(this.btnSalvar);
             this.Name = "CadProduto";
             this.Text = "Produto";
+            this.Load += new System.EventHandler(this.CadProduto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -126,7 +149,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtNome;
-        private System.Windows.Forms.TextBox txtUnidade;
         private System.Windows.Forms.TextBox txtDescricao;
+        private System.Windows.Forms.ComboBox cbUnidadeProd;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label4;
     }
 }
